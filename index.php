@@ -1,4 +1,6 @@
 <?php
+// I can't think of a better way to approach this.
+
 if (isset($_GET["l"]) || isset($_GET["c"]))
 {
 	if ($_GET["l"] == "fr")
